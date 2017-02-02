@@ -1,20 +1,35 @@
 body{background:white;}
 
+/*page border fron: http://stackoverflow.com/questions/3175009/how-can-i-put-a-border-around-the-page; */
 #main    {
      background-color: #FFFFFF;
-     margin: auto;
-     border: 1px solid black; /* width, style, colour */
+     margin: 25px 250px;
+     border: 1px solid black;
      padding-left: 15px;
-     padding-right: 5px;
+     padding-right: 15px;
      padding-bottom: 20px;
      } 
 
 h1{text-align: center;
 }
 
+#info{
+	text-align: center;
+}
+
+.rsmtitle{
+	font-weight:bold;
+}
+
+/*dates from: http://stackoverflow.com/questions/1944175/css-best-way-to-left-align-a-floatright-section */
 .dates {
   float:right;
-  min-width:171px;
-  max-width:300px;
+  min-width:150px;
+  max-width:200px;
   padding-right: 15px;
+}
+
+/*underline from wikihow*/
+.underline{
+	text-decoration: underline;
 }
