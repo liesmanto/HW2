@@ -3,18 +3,41 @@ body{background:white;}
 /*page border fron: http://stackoverflow.com/questions/3175009/how-can-i-put-a-border-around-the-page; */
 #main  {
 	float: center;
-     text-align: center;
-     background-color: #FFFFFF;
-     margin: 25px 250px;
-     border: 1px solid black;
-     padding-left: 15px;
-     padding-right: 15px;
-     padding-bottom: 20px;
-     } 
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 25px 250px;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+} 
 
-h1{text-align: center;
+#body{
+  float: center;
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 100px 250px;
+  border: 0px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
 }
 
+a {
+  color: #818080;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: help;
+}
+
+a:hover {
+  color: black;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+h1{display: inline-block;}
 
 .left{text-align: left;}
 
@@ -33,4 +56,10 @@ h1{text-align: center;
 /*underline from wikihow*/
 .underline{
 	text-decoration: underline;
+}
+
+.nav{
+    text-align: center;
+    padding-top: 20px;
+
 }
