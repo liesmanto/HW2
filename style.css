@@ -1,7 +1,7 @@
 body{background:white;}
 
 /*page border fron: http://stackoverflow.com/questions/3175009/how-can-i-put-a-border-around-the-page; */
-#main  {
+#main {
 	float: center;
   text-align: center;
   background-color: #FFFFFF;
@@ -12,17 +12,19 @@ body{background:white;}
   padding-bottom: 20px;
 } 
 
-#body{
+#header {
   float: center;
   text-align: center;
   background-color: #FFFFFF;
-  margin: 100px 250px;
-  border: 0px solid black;
+  margin: 75px 350px;
+  border: 1px solid black;
+  padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
+/* webkit transition code from: w3schools.com*/
 a {
   color: #818080;
   text-decoration: none;
@@ -37,11 +39,20 @@ a:hover {
   transition: all 0.5s ease;
 }
 
-h1{display: inline-block;}
+a:link{
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
-.left{text-align: left;}
+h1 {
+  display: inline-block;
+}
 
-.rsmtitle{
+.left {
+  text-align: left;
+}
+
+.rsmtitle {
 	font-weight:bold;
 }
 
@@ -54,12 +65,30 @@ h1{display: inline-block;}
 }
 
 /*underline from wikihow*/
-.underline{
+.underline {
 	text-decoration: underline;
 }
 
-.nav{
+.nav {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+
+.abtme {
+  float: left;
+  text-align: left;
+  background-color: #FFFFFF;
+  margin: 0px 350px;
+  border: 0px solid black;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
 
 }
+
+
+
