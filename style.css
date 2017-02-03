@@ -2,7 +2,6 @@ body{background:white;}
 
 /*page border fron: http://stackoverflow.com/questions/3175009/how-can-i-put-a-border-around-the-page; */
 #main {
-	float: center;
   text-align: center;
   background-color: #FFFFFF;
   margin: 25px 250px;
@@ -13,7 +12,6 @@ body{background:white;}
 } 
 
 #header {
-  float: center;
   text-align: center;
   background-color: #FFFFFF;
   margin: 75px 350px;
