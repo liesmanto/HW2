@@ -27,7 +27,7 @@ body #main {
   background:white;
   text-align: center;
   background-color: #FFFFFF;
-  margin: 25px 280px;
+  margin: 25px 250px;
   border: 1px solid black;
   padding-left: 15px;
   padding-right: 15px;
@@ -51,7 +51,6 @@ footer {
   text-align:right; 
   padding-bottom:0px;
   padding-top:30px; 
-  margin-bottom: 0px;
 }
 
 footer img {
@@ -115,8 +114,14 @@ h1 {
   float: left;
   text-align: left;
   background-color: #FFFFFF;
-  bottom: 0px;
+  margin: 50px 350px;
+  border: 0px solid black;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 135px;
 }
+
 
 
 /*Overlay codes from: w3schools.com*/
