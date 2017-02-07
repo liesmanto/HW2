@@ -113,12 +113,12 @@ h1 {
   float: left;
   text-align: left;
   background-color: #FFFFFF;
-  margin: 55px 350px;
+  margin: 55px 350px 0px;
   border: 0px solid black;
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 145px;
+  padding-bottom: 175px;
 }
 
 
