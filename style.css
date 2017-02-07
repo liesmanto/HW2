@@ -51,6 +51,7 @@ footer {
   text-align:right; 
   padding-bottom:0px;
   padding-top:30px; 
+  margin-bottom: 0px;
 }
 
 footer img {
@@ -114,14 +115,8 @@ h1 {
   float: left;
   text-align: left;
   background-color: #FFFFFF;
-  margin: 50px 350px;
-  border: 0px solid black;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 135px;
+  bottom: 0px;
 }
-
 
 
 /*Overlay codes from: w3schools.com*/
